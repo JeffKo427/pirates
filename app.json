@@ -2,6 +2,7 @@
   "expo": {
     "name": "pirates",
     "slug": "pirates",
+    "scheme": "pirates",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,6 +25,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0ba62c41-c8dc-4b9f-af38-f3c10f116023"
+      }
+    },
+    "owner": "hexgames",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
